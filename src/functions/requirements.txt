@@ -1,0 +1,3 @@
+awscrt
+aws-iot-device-sdk-python
+paho-mqtt
