@@ -1,6 +1,6 @@
 # Descrição Arquitetural: Sistema de Monitoramento por Gêmeo Digital
 
-# Contextualização do Sistema de Gêmeo Digital para Monitoramento de Saúde
+ Contextualização do Sistema de Gêmeo Digital para Monitoramento de Saúde
 
 ## Contexto Geral
 
@@ -95,6 +95,7 @@ O sistema beneficia diferentes grupos:
 - Propósito: Descreve a funcionalidade e fluxo de dados
 - Preocupações abordadas: Operação do sistema, processamento de dados
 - Modelos: Diagrama de componentes, diagramas de fluxo de dados
+
 ![Vista Funcional](ArquiteturaGemeo.png)
 
 ### 3.2 Ponto de Vista de Informação
@@ -106,6 +107,7 @@ O sistema beneficia diferentes grupos:
 - Propósito: Descreve implantação física e infraestrutura
 - Preocupações abordadas: Distribuição do sistema, recursos em nuvem
 - Modelos: Diagrama de implantação de serviços AWS
+
 ![Vista de Implantação](ImplementacaoArquitetura.png)
 
 ### 3.4 Ponto de Vista de Desempenho
