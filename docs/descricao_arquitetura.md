@@ -47,6 +47,7 @@ A implementação deste sistema contribui para:
 ### Desafios Endereçados
 
 O sistema aborda diversos desafios técnicos e práticos:
+
 **Tecnológicos**:
    - Integração de diferentes tecnologias e protocolos
    - Processamento em tempo real de dados
@@ -94,7 +95,7 @@ O sistema beneficia diferentes grupos:
 - Propósito: Descreve a funcionalidade e fluxo de dados
 - Preocupações abordadas: Operação do sistema, processamento de dados
 - Modelos: Diagrama de componentes, diagramas de fluxo de dados
-![Vista Funcional](ArquiteturaGemeo.drawio.pdf)
+![Vista Funcional](ArquiteturaGemeo.png)
 
 ### 3.2 Ponto de Vista de Informação
 - Propósito: Descreve estrutura e gestão de dados
@@ -105,7 +106,7 @@ O sistema beneficia diferentes grupos:
 - Propósito: Descreve implantação física e infraestrutura
 - Preocupações abordadas: Distribuição do sistema, recursos em nuvem
 - Modelos: Diagrama de implantação de serviços AWS
-![Vista de Implantação](ImplementacaoArquitetura.pdf)
+![Vista de Implantação](ImplementacaoArquitetura.png)
 
 ### 3.4 Ponto de Vista de Desempenho
 - Propósito: Descreve características de desempenho
