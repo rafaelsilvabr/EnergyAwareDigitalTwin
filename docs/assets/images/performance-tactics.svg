@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">Táticas de Desempenho</text>
+
+    <!-- Containers principais -->
+    <rect x="50" y="80" width="220" height="450" fill="#f5f5f5" stroke="#666"/>
+    <rect x="290" y="80" width="220" height="450" fill="#f5f5f5" stroke="#666"/>
+    <rect x="530" y="80" width="220" height="450" fill="#f5f5f5" stroke="#666"/>
+
+    <!-- Títulos dos containers -->
+    <text x="160" y="110" text-anchor="middle" font-size="16" font-weight="bold">Gerenciamento</text>
+    <text x="160" y="130" text-anchor="middle" font-size="16" font-weight="bold">de Recursos</text>
+
+    <text x="400" y="110" text-anchor="middle" font-size="16" font-weight="bold">Gerenciamento</text>
+    <text x="400" y="130" text-anchor="middle" font-size="16" font-weight="bold">de Demanda</text>
+
+    <text x="640" y="110" text-anchor="middle" font-size="16" font-weight="bold">Otimização de</text>
+    <text x="640" y="130" text-anchor="middle" font-size="16" font-weight="bold">Processamento</text>
+
+    <!-- Táticas de Gerenciamento de Recursos -->
+    <rect x="70" y="160" width="180" height="60" fill="#4CAF50" stroke="black" rx="5"/>
+    <text x="160" y="190" text-anchor="middle" fill="white">Aumentar Recursos</text>
+
+    <rect x="70" y="240" width="180" height="60" fill="#4CAF50" stroke="black" rx="5"/>
+    <text x="160" y="270" text-anchor="middle" fill="white">Replicação</text>
+
+    <rect x="70" y="320" width="180" height="60" fill="#4CAF50" stroke="black" rx="5"/>
+    <text x="160" y="350" text-anchor="middle" fill="white">Load Balancing</text>
+
+    <!-- Táticas de Gerenciamento de Demanda -->
+    <rect x="310" y="160" width="180" height="60" fill="#2196F3" stroke="black" rx="5"/>
+    <text x="400" y="190" text-anchor="middle" fill="white">Rate Limiting</text>
+
+    <rect x="310" y="240" width="180" height="60" fill="#2196F3" stroke="black" rx="5"/>
+    <text x="400" y="270" text-anchor="middle" fill="white">Queue Management</text>
+
+    <rect x="310" y="320" width="180" height="60" fill="#2196F3" stroke="black" rx="5"/>
+    <text x="400" y="350" text-anchor="middle" fill="white">Priorização</text>
+
+    <!-- Táticas de Otimização de Processamento -->
+    <rect x="550" y="160" width="180" height="60" fill="#FF9800" stroke="black" rx="5"/>
+    <text x="640" y="190" text-anchor="middle" fill="white">Caching</text>
+
+    <rect x="550" y="240" width="180" height="60" fill="#FF9800" stroke="black" rx="5"/>
+    <text x="640" y="270" text-anchor="middle" fill="white">Lazy Loading</text>
+
+    <rect x="550" y="320" width="180" height="60" fill="#FF9800" stroke="black" rx="5"/>
+    <text x="640" y="350" text-anchor="middle" fill="white">Batch Processing</text>
+
+    <!-- Métricas e KPIs -->
+    <text x="160" y="440" text-anchor="middle" font-size="12">Métricas:</text>
+    <text x="160" y="460" text-anchor="middle" font-size="12">• CPU/Memória</text>
+    <text x="160" y="480" text-anchor="middle" font-size="12">• Capacidade</text>
+
+    <text x="400" y="440" text-anchor="middle" font-size="12">Métricas:</text>
+    <text x="400" y="460" text-anchor="middle" font-size="12">• Throughput</text>
+    <text x="400" y="480" text-anchor="middle" font-size="12">• Taxa de rejeição</text>
+
+    <text x="640" y="440" text-anchor="middle" font-size="12">Métricas:</text>
+    <text x="640" y="460" text-anchor="middle" font-size="12">• Latência</text>
+    <text x="640" y="480" text-anchor="middle" font-size="12">• Hit ratio cache</text>
+</svg>

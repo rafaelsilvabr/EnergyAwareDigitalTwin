@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">Matriz Visual de Riscos Arquiteturais</text>
+
+    <!-- Grid Background -->
+    <rect x="100" y="100" width="600" height="400" fill="#f8f9fa" stroke="#dee2e6"/>
+
+    <!-- Grid Lines -->
+    <line x1="300" y1="100" x2="300" y2="500" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="500" y1="100" x2="500" y2="500" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="100" y1="233" x2="700" y2="233" stroke="#dee2e6" stroke-width="1"/>
+    <line x1="100" y1="366" x2="700" y2="366" stroke="#dee2e6" stroke-width="1"/>
+
+    <!-- Eixos -->
+    <line x1="100" y1="500" x2="700" y2="500" stroke="black" stroke-width="2"/>
+    <line x1="100" y1="100" x2="100" y2="500" stroke="black" stroke-width="2"/>
+
+    <!-- Labels dos Eixos -->
+    <text x="400" y="540" text-anchor="middle" font-size="14">Probabilidade</text>
+    <text x="60" y="300" text-anchor="middle" font-size="14" transform="rotate(-90,60,300)">Impacto</text>
+
+    <!-- Labels da Grade -->
+    <text x="200" y="520" text-anchor="middle">Baixa</text>
+    <text x="400" y="520" text-anchor="middle">Média</text>
+    <text x="600" y="520" text-anchor="middle">Alta</text>
+
+    <text x="80" y="450" text-anchor="end">Baixo</text>
+    <text x="80" y="300" text-anchor="end">Médio</text>
+    <text x="80" y="150" text-anchor="end">Alto</text>
+
+    <!-- Zonas de Risco -->
+    <rect x="500" y="100" width="200" height="133" fill="#dc3545" fill-opacity="0.1"/>
+    <rect x="300" y="100" width="200" height="133" fill="#ffc107" fill-opacity="0.1"/>
+    <rect x="100" y="366" width="200" height="134" fill="#28a745" fill-opacity="0.1"/>
+
+    <!-- Riscos -->
+    <circle cx="600" cy="150" r="30" fill="#dc3545" opacity="0.8"/>
+    <text x="600" y="150" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R1</text>
+
+    <circle cx="400" cy="150" r="30" fill="#ffc107" opacity="0.8"/>
+    <text x="400" y="150" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R2</text>
+
+    <circle cx="400" cy="300" r="30" fill="#ffc107" opacity="0.8"/>
+    <text x="400" y="300" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R3</text>
+
+    <circle cx="400" cy="300" r="30" fill="#ffc107" opacity="0.8"/>
+    <text x="400" y="300" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R4</text>
+
+    <circle cx="200" cy="450" r="30" fill="#28a745" opacity="0.8"/>
+    <text x="200" y="450" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R5</text>
+
+    <circle cx="200" cy="300" r="30" fill="#28a745" opacity="0.8"/>
+    <text x="200" y="300" text-anchor="middle" fill="white" font-size="14" font-weight="bold">R6</text>
+
+    <!-- Legenda -->
+    <rect x="100" y="560" width="20" height="20" fill="#dc3545" opacity="0.8"/>
+    <text x="130" y="575" font-size="12">Risco Crítico</text>
+
+    <rect x="250" y="560" width="20" height="20" fill="#ffc107" opacity="0.8"/>
+    <text x="280" y="575" font-size="12">Risco Alto</text>
+
+    <rect x="400" y="560" width="20" height="20" fill="#28a745" opacity="0.8"/>
+    <text x="430" y="575" font-size="12">Risco Baixo</text>
+</svg>

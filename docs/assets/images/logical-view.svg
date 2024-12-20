@@ -1,0 +1,115 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold">Visão Lógica</text>
+
+    <!-- Frontend Layer -->
+    <g transform="translate(50,80)">
+        <rect width="700" height="120" rx="5" fill="#f8f9fa" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">Frontend</text>
+
+        <!-- Web UI -->
+        <g transform="translate(50,50)">
+            <rect width="150" height="50" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="45" y="30" fill="white" font-family="Arial" font-size="14">Web Interface</text>
+        </g>
+
+        <!-- Mobile UI -->
+        <g transform="translate(275,50)">
+            <rect width="150" height="50" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">Mobile Interface</text>
+        </g>
+
+        <!-- Admin UI -->
+        <g transform="translate(500,50)">
+            <rect width="150" height="50" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">Admin Console</text>
+        </g>
+    </g>
+
+    <!-- Core Services Layer -->
+    <g transform="translate(50,220)">
+        <rect width="700" height="180" rx="5" fill="#f8f9fa" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">Core Services</text>
+
+        <!-- Digital Twin Service -->
+        <g transform="translate(50,50)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="30" y="30" fill="white" font-family="Arial" font-size="14">Digital Twin Core</text>
+        </g>
+
+        <!-- Analytics Service -->
+        <g transform="translate(275,50)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="45" y="30" fill="white" font-family="Arial" font-size="14">Analytics</text>
+        </g>
+
+        <!-- Optimization Service -->
+        <g transform="translate(500,50)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">Optimization</text>
+        </g>
+
+        <!-- Security Service -->
+        <g transform="translate(50,110)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="45" y="30" fill="white" font-family="Arial" font-size="14">Security</text>
+        </g>
+
+        <!-- Monitoring Service -->
+        <g transform="translate(275,110)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">Monitoring</text>
+        </g>
+
+        <!-- Event Bus -->
+        <g transform="translate(500,110)">
+            <rect width="150" height="50" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="40" y="30" fill="white" font-family="Arial" font-size="14">Event Bus</text>
+        </g>
+    </g>
+
+    <!-- Integration Layer -->
+    <g transform="translate(50,420)">
+        <rect width="700" height="120" rx="5" fill="#f8f9fa" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">Integration</text>
+
+        <!-- IoT Gateway -->
+        <g transform="translate(50,50)">
+            <rect width="150" height="50" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">IoT Gateway</text>
+        </g>
+
+        <!-- External APIs -->
+        <g transform="translate(275,50)">
+            <rect width="150" height="50" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">External APIs</text>
+        </g>
+
+        <!-- Data Pipeline -->
+        <g transform="translate(500,50)">
+            <rect width="150" height="50" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="35" y="30" fill="white" font-family="Arial" font-size="14">Data Pipeline</text>
+        </g>
+    </g>
+
+    <!-- Conectores -->
+    <g stroke="#000" stroke-width="1.5">
+        <!-- Frontend para Core -->
+        <line x1="125" y1="180" x2="125" y2="220" marker-end="url(#arrowhead)"/>
+        <line x1="350" y1="180" x2="350" y2="220" marker-end="url(#arrowhead)"/>
+        <line x1="575" y1="180" x2="575" y2="220" marker-end="url(#arrowhead)"/>
+
+        <!-- Core para Integration -->
+        <line x1="125" y1="380" x2="125" y2="420" marker-end="url(#arrowhead)"/>
+        <line x1="350" y1="380" x2="350" y2="420" marker-end="url(#arrowhead)"/>
+        <line x1="575" y1="380" x2="575" y2="420" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+</svg>

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold">Diagrama de Contexto</text>
+
+    <!-- Sistema Central -->
+    <g transform="translate(300,200)">
+        <rect width="200" height="100" rx="10" fill="#3498db" stroke="#000"/>
+        <text x="30" y="55" fill="white" font-family="Arial" font-size="14">Sistema de Gêmeo Digital</text>
+    </g>
+
+    <!-- Dispositivos IoT -->
+    <g transform="translate(50,100)">
+        <rect width="150" height="80" rx="5" fill="#e74c3c" stroke="#000"/>
+        <text x="20" y="45" fill="white" font-family="Arial" font-size="14">Dispositivos IoT</text>
+    </g>
+
+    <!-- Sistemas Hospitalares -->
+    <g transform="translate(600,100)">
+        <rect width="150" height="80" rx="5" fill="#27ae60" stroke="#000"/>
+        <text x="25" y="45" fill="white" font-family="Arial" font-size="14">Sistemas EHR</text>
+    </g>
+
+    <!-- Profissionais de Saúde -->
+    <g transform="translate(50,350)">
+        <rect width="150" height="80" rx="5" fill="#f1c40f" stroke="#000"/>
+        <text x="15" y="45" fill="white" font-family="Arial" font-size="14">Profissionais de</text>
+        <text x="45" y="65" fill="white" font-family="Arial" font-size="14">Saúde</text>
+    </g>
+
+    <!-- Sistema de Emergência -->
+    <g transform="translate(600,350)">
+        <rect width="150" height="80" rx="5" fill="#e67e22" stroke="#000"/>
+        <text x="30" y="45" fill="white" font-family="Arial" font-size="14">Sistema de</text>
+        <text x="30" y="65" fill="white" font-family="Arial" font-size="14">Emergência</text>
+    </g>
+
+    <!-- Conectores -->
+    <g stroke="#000" stroke-width="1.5">
+        <!-- IoT para Sistema -->
+        <line x1="200" y1="140" x2="300" y2="250" marker-end="url(#arrowhead)"/>
+        <text x="220" y="180" font-family="Arial" font-size="10">MQTT</text>
+
+        <!-- EHR para Sistema -->
+        <line x1="600" y1="140" x2="500" y2="250" marker-end="url(#arrowhead)"/>
+        <text x="520" y="180" font-family="Arial" font-size="10">HL7/FHIR</text>
+
+        <!-- Profissionais para Sistema -->
+        <line x1="200" y1="390" x2="300" y2="300" marker-end="url(#arrowhead)"/>
+        <text x="220" y="360" font-family="Arial" font-size="10">HTTPS</text>
+
+        <!-- Emergência para Sistema -->
+        <line x1="600" y1="390" x2="500" y2="300" marker-end="url(#arrowhead)"/>
+        <text x="520" y="360" font-family="Arial" font-size="10">REST API</text>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+
+    <!-- Legenda -->
+    <g transform="translate(50,480)">
+        <rect width="700" height="100" fill="#f8f9fa" stroke="#000" rx="5"/>
+        <text x="20" y="30" font-family="Arial" font-weight="bold">Sistemas Externos e Protocolos</text>
+
+        <text x="20" y="55" font-family="Arial" font-size="12">• MQTT: Protocolo leve para comunicação IoT</text>
+        <text x="20" y="75" font-family="Arial" font-size="12">• HL7/FHIR: Padrão para interoperabilidade em saúde</text>
+        <text x="350" y="55" font-family="Arial" font-size="12">• HTTPS: Comunicação segura web</text>
+        <text x="350" y="75" font-family="Arial" font-size="12">• REST API: APIs para integração de sistemas</text>
+    </g>
+</svg>

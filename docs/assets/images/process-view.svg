@@ -1,0 +1,121 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold">Visão de Processo</text>
+
+    <!-- Swimlanes -->
+    <!-- IoT Device -->
+    <g transform="translate(50,60)">
+        <rect width="150" height="500" fill="#f8f9fa" stroke="#000"/>
+        <text x="30" y="30" font-family="Arial" font-size="14" font-weight="bold">IoT Device</text>
+    </g>
+
+    <!-- Digital Twin -->
+    <g transform="translate(200,60)">
+        <rect width="150" height="500" fill="#f0f9ff" stroke="#000"/>
+        <text x="30" y="30" font-family="Arial" font-size="14" font-weight="bold">Digital Twin</text>
+    </g>
+
+    <!-- Analytics -->
+    <g transform="translate(350,60)">
+        <rect width="150" height="500" fill="#f8f9fa" stroke="#000"/>
+        <text x="40" y="30" font-family="Arial" font-size="14" font-weight="bold">Analytics</text>
+    </g>
+
+    <!-- Optimization -->
+    <g transform="translate(500,60)">
+        <rect width="150" height="500" fill="#f0f9ff" stroke="#000"/>
+        <text x="30" y="30" font-family="Arial" font-size="14" font-weight="bold">Optimization</text>
+    </g>
+
+    <!-- Control -->
+    <g transform="translate(650,60)">
+        <rect width="100" height="500" fill="#f8f9fa" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="14" font-weight="bold">Control</text>
+    </g>
+
+    <!-- Processos e Fluxos -->
+    <!-- Data Collection -->
+    <g transform="translate(75,100)">
+        <rect width="100" height="40" rx="5" fill="#3498db" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Collect Data</text>
+    </g>
+
+    <!-- State Update -->
+    <g transform="translate(225,150)">
+        <rect width="100" height="40" rx="5" fill="#27ae60" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Update State</text>
+    </g>
+
+    <!-- Analysis -->
+    <g transform="translate(375,200)">
+        <rect width="100" height="40" rx="5" fill="#e74c3c" stroke="#000"/>
+        <text x="20" y="25" fill="white" font-family="Arial" font-size="12">Analyze</text>
+    </g>
+
+    <!-- Optimization -->
+    <g transform="translate(525,250)">
+        <rect width="100" height="40" rx="5" fill="#9b59b6" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Optimize</text>
+    </g>
+
+    <!-- Control Action -->
+    <g transform="translate(650,300)">
+        <rect width="100" height="40" rx="5" fill="#f1c40f" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Take Action</text>
+    </g>
+
+    <!-- Feedback Loop -->
+    <g transform="translate(75,350)">
+        <rect width="100" height="40" rx="5" fill="#3498db" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Apply Changes</text>
+    </g>
+
+    <!-- Validation -->
+    <g transform="translate(225,400)">
+        <rect width="100" height="40" rx="5" fill="#27ae60" stroke="#000"/>
+        <text x="10" y="25" fill="white" font-family="Arial" font-size="12">Validate</text>
+    </g>
+
+    <!-- Conectores -->
+    <g stroke="#000" stroke-width="1.5">
+        <!-- Data Flow -->
+        <path d="M 175,120 L 225,150" marker-end="url(#arrowhead)"/>
+        <path d="M 325,170 L 375,200" marker-end="url(#arrowhead)"/>
+        <path d="M 475,220 L 525,250" marker-end="url(#arrowhead)"/>
+        <path d="M 625,270 L 675,300" marker-end="url(#arrowhead)"/>
+        <path d="M 700,340 L 175,370" marker-end="url(#arrowhead)"/>
+        <path d="M 175,370 L 225,400" marker-end="url(#arrowhead)"/>
+        <path d="M 325,420 L 125,120" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+    </g>
+
+    <!-- Events -->
+    <g transform="translate(50,520)">
+        <rect width="700" height="60" fill="#f8f9fa" stroke="#000" rx="5"/>
+        <text x="20" y="25" font-family="Arial" font-weight="bold">Eventos do Processo</text>
+
+        <g transform="translate(20,40)">
+            <circle cx="10" cy="0" r="5" fill="#3498db"/>
+            <text x="25" y="5" font-family="Arial" font-size="12">Coleta de Dados</text>
+
+            <circle cx="150" cy="0" r="5" fill="#27ae60"/>
+            <text x="165" y="5" font-family="Arial" font-size="12">Atualização</text>
+
+            <circle cx="280" cy="0" r="5" fill="#e74c3c"/>
+            <text x="295" y="5" font-family="Arial" font-size="12">Análise</text>
+
+            <circle cx="410" cy="0" r="5" fill="#9b59b6"/>
+            <text x="425" y="5" font-family="Arial" font-size="12">Otimização</text>
+
+            <circle cx="540" cy="0" r="5" fill="#f1c40f"/>
+            <text x="555" y="5" font-family="Arial" font-size="12">Controle</text>
+        </g>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+</svg>

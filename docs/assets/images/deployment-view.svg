@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="40" font-family="Arial" font-size="20" font-weight="bold">Visão de Implantação</text>
+
+    <!-- Cloud Infrastructure -->
+    <g transform="translate(50,60)">
+        <rect width="900" height="300" rx="10" fill="#f0f8ff" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">Infraestrutura em Nuvem</text>
+
+        <!-- Load Balancer -->
+        <g transform="translate(50,50)">
+            <rect width="800" height="40" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="350" y="25" fill="white" font-family="Arial" font-size="14">Load Balancer</text>
+        </g>
+
+        <!-- Application Servers -->
+        <g transform="translate(50,110)">
+            <rect width="250" height="150" rx="5" fill="#2ecc71" stroke="#000"/>
+            <text x="70" y="30" fill="white" font-family="Arial" font-size="14">Application Server 1</text>
+            <!-- Components -->
+            <g transform="translate(20,50)">
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000"/>
+                <text x="10" y="17" font-family="Arial" font-size="12">Digital Twin Service</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,30)"/>
+                <text x="10" y="47" font-family="Arial" font-size="12">Analytics Service</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,60)"/>
+                <text x="10" y="77" font-family="Arial" font-size="12">API Gateway</text>
+            </g>
+        </g>
+
+        <!-- Replica Server -->
+        <g transform="translate(320,110)">
+            <rect width="250" height="150" rx="5" fill="#2ecc71" stroke="#000"/>
+            <text x="70" y="30" fill="white" font-family="Arial" font-size="14">Application Server 2</text>
+            <!-- Components -->
+            <g transform="translate(20,50)">
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000"/>
+                <text x="10" y="17" font-family="Arial" font-size="12">Digital Twin Service</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,30)"/>
+                <text x="10" y="47" font-family="Arial" font-size="12">Analytics Service</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,60)"/>
+                <text x="10" y="77" font-family="Arial" font-size="12">API Gateway</text>
+            </g>
+        </g>
+
+        <!-- Database Cluster -->
+        <g transform="translate(590,110)">
+            <rect width="260" height="150" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="90" y="30" fill="white" font-family="Arial" font-size="14">Database Cluster</text>
+            <!-- Nodes -->
+            <g transform="translate(20,50)">
+                <rect width="100" height="80" rx="3" fill="white" stroke="#000"/>
+                <text x="20" y="45" font-family="Arial" font-size="12">Primary</text>
+            </g>
+            <g transform="translate(140,50)">
+                <rect width="100" height="80" rx="3" fill="white" stroke="#000"/>
+                <text x="20" y="45" font-family="Arial" font-size="12">Replica</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- Edge Infrastructure -->
+    <g transform="translate(50,380)">
+        <rect width="900" height="200" rx="10" fill="#fff5f5" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">Edge Computing</text>
+
+        <!-- Edge Node 1 -->
+        <g transform="translate(50,50)">
+            <rect width="250" height="120" rx="5" fill="#9b59b6" stroke="#000"/>
+            <text x="90" y="30" fill="white" font-family="Arial" font-size="14">Edge Node 1</text>
+            <!-- Components -->
+            <g transform="translate(20,45)">
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000"/>
+                <text x="10" y="17" font-family="Arial" font-size="12">Data Collector</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,30)"/>
+                <text x="10" y="47" font-family="Arial" font-size="12">Local Processing</text>
+            </g>
+        </g>
+
+        <!-- Edge Node 2 -->
+        <g transform="translate(320,50)">
+            <rect width="250" height="120" rx="5" fill="#9b59b6" stroke="#000"/>
+            <text x="90" y="30" fill="white" font-family="Arial" font-size="14">Edge Node 2</text>
+            <!-- Components -->
+            <g transform="translate(20,45)">
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000"/>
+                <text x="10" y="17" font-family="Arial" font-size="12">Data Collector</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,30)"/>
+                <text x="10" y="47" font-family="Arial" font-size="12">Local Processing</text>
+            </g>
+        </g>
+
+        <!-- Edge Node 3 -->
+        <g transform="translate(590,50)">
+            <rect width="250" height="120" rx="5" fill="#9b59b6" stroke="#000"/>
+            <text x="90" y="30" fill="white" font-family="Arial" font-size="14">Edge Node 3</text>
+            <!-- Components -->
+            <g transform="translate(20,45)">
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000"/>
+                <text x="10" y="17" font-family="Arial" font-size="12">Data Collector</text>
+                <rect width="210" height="25" rx="3" fill="white" stroke="#000" transform="translate(0,30)"/>
+                <text x="10" y="47" font-family="Arial" font-size="12">Local Processing</text>
+            </g>
+        </g>
+    </g>
+
+    <!-- IoT Layer -->
+    <g transform="translate(50,600)">
+        <rect width="900" height="150" rx="10" fill="#f0fff4" stroke="#000"/>
+        <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold">IoT Devices</text>
+
+        <!-- Device Groups -->
+        <g transform="translate(50,50)">
+            <rect width="250" height="80" rx="5" fill="#f1c40f" stroke="#000"/>
+            <text x="90" y="35" fill="white" font-family="Arial" font-size="14">Healthcare Devices</text>
+            <text x="70" y="60" fill="white" font-family="Arial" font-size="12">Smartwatches, Monitors</text>
+        </g>
+
+        <g transform="translate(320,50)">
+            <rect width="250" height="80" rx="5" fill="#f1c40f" stroke="#000"/>
+            <text x="90" y="35" fill="white" font-family="Arial" font-size="14">Environmental Sensors</text>
+            <text x="80" y="60" fill="white" font-family="Arial" font-size="12">Temperature, Humidity</text>
+        </g>
+
+        <g transform="translate(590,50)">
+            <rect width="250" height="80" rx="5" fill="#f1c40f" stroke="#000"/>
+            <text x="90" y="35" fill="white" font-family="Arial" font-size="14">Medical Equipment</text>
+            <text x="75" y="60" fill="white" font-family="Arial" font-size="12">Diagnostic Devices</text>
+        </g>
+    </g>
+
+    <!-- Conectores -->
+    <g stroke="#000" stroke-width="1.5">
+        <line x1="175" y1="360" x2="175" y2="380" marker-end="url(#arrowhead)"/>
+        <line x1="445" y1="360" x2="445" y2="380" marker-end="url(#arrowhead)"/>
+        <line x1="715" y1="360" x2="715" y2="380" marker-end="url(#arrowhead)"/>
+
+        <line x1="175" y1="580" x2="175" y2="600" marker-end="url(#arrowhead)"/>
+        <line x1="445" y1="580" x2="445" y2="600" marker-end="url(#arrowhead)"/>
+        <line x1="715" y1="580" x2="715" y2="600" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+
+    <!-- Legenda -->
+    <g transform="translate(50,770)">
+        <rect width="900" height="30" fill="#f8f9fa" stroke="#000" rx="5"/>
+        <text x="20" y="20" font-family="Arial" font-size="12">
+            ↑ MQTT (IoT-Edge) |
+            ↕ HTTPS (Edge-Cloud) |
+            ⟷ gRPC (Internal Services) |
+            ⟲ Replication (Database)
+        </text>
+    </g>
+</svg>

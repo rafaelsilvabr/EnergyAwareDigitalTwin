@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="400" y="40" text-anchor="middle" font-size="20" font-weight="bold">Matriz de Decisões Arquiteturais</text>
+
+    <!-- Cabeçalho da matriz -->
+    <rect x="50" y="60" width="150" height="40" fill="#e6e6e6" stroke="black"/>
+    <text x="125" y="85" text-anchor="middle">Decisão</text>
+
+    <rect x="200" y="60" width="150" height="40" fill="#e6e6e6" stroke="black"/>
+    <text x="275" y="85" text-anchor="middle">Motivação</text>
+
+    <rect x="350" y="60" width="150" height="40" fill="#e6e6e6" stroke="black"/>
+    <text x="425" y="85" text-anchor="middle">Impacto</text>
+
+    <rect x="500" y="60" width="250" height="40" fill="#e6e6e6" stroke="black"/>
+    <text x="625" y="85" text-anchor="middle">Trade-offs</text>
+
+    <!-- Linhas da matriz -->
+    <!-- Digital Twin Pattern -->
+    <rect x="50" y="100" width="150" height="60" fill="white" stroke="black"/>
+    <text x="125" y="130" text-anchor="middle">Digital Twin Pattern</text>
+
+    <rect x="200" y="100" width="150" height="60" fill="white" stroke="black"/>
+    <text x="275" y="125" text-anchor="middle" font-size="12">Monitoramento em</text>
+    <text x="275" y="140" text-anchor="middle" font-size="12">tempo real</text>
+
+    <rect x="350" y="100" width="150" height="60" fill="white" stroke="black"/>
+    <text x="425" y="125" text-anchor="middle" font-size="12">+ Desempenho</text>
+    <text x="425" y="140" text-anchor="middle" font-size="12">+ Disponibilidade</text>
+
+    <rect x="500" y="100" width="250" height="60" fill="white" stroke="black"/>
+    <text x="625" y="125" text-anchor="middle" font-size="12">Maior complexidade</text>
+    <text x="625" y="140" text-anchor="middle" font-size="12">Maior consumo de recursos</text>
+
+    <!-- Event-Driven Architecture -->
+    <rect x="50" y="160" width="150" height="60" fill="white" stroke="black"/>
+    <text x="125" y="190" text-anchor="middle">Event-Driven</text>
+
+    <rect x="200" y="160" width="150" height="60" fill="white" stroke="black"/>
+    <text x="275" y="185" text-anchor="middle" font-size="12">Desacoplamento</text>
+    <text x="275" y="200" text-anchor="middle" font-size="12">e escalabilidade</text>
+
+    <rect x="350" y="160" width="150" height="60" fill="white" stroke="black"/>
+    <text x="425" y="185" text-anchor="middle" font-size="12">+ Escalabilidade</text>
+    <text x="425" y="200" text-anchor="middle" font-size="12">+ Manutenibilidade</text>
+
+    <rect x="500" y="160" width="250" height="60" fill="white" stroke="black"/>
+    <text x="625" y="185" text-anchor="middle" font-size="12">Consistência eventual</text>
+    <text x="625" y="200" text-anchor="middle" font-size="12">Complexidade de depuração</text>
+
+    <!-- Microservices -->
+    <rect x="50" y="220" width="150" height="60" fill="white" stroke="black"/>
+    <text x="125" y="250" text-anchor="middle">Microservices</text>
+
+    <rect x="200" y="220" width="150" height="60" fill="white" stroke="black"/>
+    <text x="275" y="245" text-anchor="middle" font-size="12">Independência e</text>
+    <text x="275" y="260" text-anchor="middle" font-size="12">autonomia</text>
+
+    <rect x="350" y="220" width="150" height="60" fill="white" stroke="black"/>
+    <text x="425" y="245" text-anchor="middle" font-size="12">+ Escalabilidade</text>
+    <text x="425" y="260" text-anchor="middle" font-size="12">+ Resiliência</text>
+
+    <rect x="500" y="220" width="250" height="60" fill="white" stroke="black"/>
+    <text x="625" y="245" text-anchor="middle" font-size="12">Complexidade operacional</text>
+    <text x="625" y="260" text-anchor="middle" font-size="12">Overhead de comunicação</text>
+</svg>

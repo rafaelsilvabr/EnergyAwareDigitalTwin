@@ -1,0 +1,119 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold">Modelo Conceitual</text>
+
+    <!-- Domínio Físico -->
+    <g transform="translate(50,100)">
+        <rect width="200" height="200" rx="5" fill="#f1f1f1" stroke="#000"/>
+        <text x="70" y="30" font-family="Arial" font-size="16" font-weight="bold">Domínio Físico</text>
+
+        <!-- Dispositivo -->
+        <g transform="translate(20,50)">
+            <rect width="160" height="60" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="45" y="35" fill="white" font-family="Arial" font-size="14">Dispositivo IoT</text>
+        </g>
+
+        <!-- Sensor -->
+        <g transform="translate(20,120)">
+            <rect width="160" height="60" rx="5" fill="#3498db" stroke="#000"/>
+            <text x="55" y="35" fill="white" font-family="Arial" font-size="14">Sensores</text>
+        </g>
+    </g>
+
+    <!-- Domínio Virtual -->
+    <g transform="translate(300,100)">
+        <rect width="200" height="400" rx="5" fill="#f1f1f1" stroke="#000"/>
+        <text x="70" y="30" font-family="Arial" font-size="16" font-weight="bold">Domínio Virtual</text>
+
+        <!-- Digital Twin -->
+        <g transform="translate(20,50)">
+            <rect width="160" height="60" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="45" y="35" fill="white" font-family="Arial" font-size="14">Digital Twin</text>
+        </g>
+
+        <!-- Modelo Preditivo -->
+        <g transform="translate(20,120)">
+            <rect width="160" height="60" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="35" y="35" fill="white" font-family="Arial" font-size="14">Modelo Preditivo</text>
+        </g>
+
+        <!-- Otimizador -->
+        <g transform="translate(20,190)">
+            <rect width="160" height="60" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="45" y="35" fill="white" font-family="Arial" font-size="14">Otimizador</text>
+        </g>
+
+        <!-- Analytics -->
+        <g transform="translate(20,260)">
+            <rect width="160" height="60" rx="5" fill="#27ae60" stroke="#000"/>
+            <text x="50" y="35" fill="white" font-family="Arial" font-size="14">Analytics</text>
+        </g>
+    </g>
+
+    <!-- Domínio de Dados -->
+    <g transform="translate(550,100)">
+        <rect width="200" height="400" rx="5" fill="#f1f1f1" stroke="#000"/>
+        <text x="70" y="30" font-family="Arial" font-size="16" font-weight="bold">Domínio de Dados</text>
+
+        <!-- Time Series -->
+        <g transform="translate(20,50)">
+            <rect width="160" height="60" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="35" y="35" fill="white" font-family="Arial" font-size="14">Time Series DB</text>
+        </g>
+
+        <!-- Cache -->
+        <g transform="translate(20,120)">
+            <rect width="160" height="60" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="60" y="35" fill="white" font-family="Arial" font-size="14">Cache</text>
+        </g>
+
+        <!-- Event Store -->
+        <g transform="translate(20,190)">
+            <rect width="160" height="60" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="45" y="35" fill="white" font-family="Arial" font-size="14">Event Store</text>
+        </g>
+
+        <!-- Data Lake -->
+        <g transform="translate(20,260)">
+            <rect width="160" height="60" rx="5" fill="#e74c3c" stroke="#000"/>
+            <text x="50" y="35" fill="white" font-family="Arial" font-size="14">Data Lake</text>
+        </g>
+    </g>
+
+    <!-- Conectores -->
+    <g stroke="#000" stroke-width="1.5">
+        <!-- Físico para Virtual -->
+        <path d="M 250,150 L 300,150" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+        <path d="M 250,200 L 300,200" stroke-dasharray="5,5" marker-end="url(#arrowhead)"/>
+
+        <!-- Virtual para Dados -->
+        <path d="M 500,150 L 550,150" marker-end="url(#arrowhead)"/>
+        <path d="M 500,200 L 550,200" marker-end="url(#arrowhead)"/>
+        <path d="M 500,250 L 550,250" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+
+    <!-- Legenda -->
+    <g transform="translate(50,520)">
+        <rect width="700" height="60" fill="#f8f9fa" stroke="#000" rx="5"/>
+        <text x="20" y="25" font-family="Arial" font-weight="bold">Legenda</text>
+
+        <g transform="translate(20,40)">
+            <rect width="15" height="15" fill="#3498db"/>
+            <text x="25" y="12" font-family="Arial" font-size="12">Elementos Físicos</text>
+
+            <rect width="15" height="15" fill="#27ae60" transform="translate(150,0)"/>
+            <text x="175" y="12" font-family="Arial" font-size="12">Elementos Virtuais</text>
+
+            <rect width="15" height="15" fill="#e74c3c" transform="translate(300,0)"/>
+            <text x="325" y="12" font-family="Arial" font-size="12">Armazenamento de Dados</text>
+        </g>
+    </g>
+</svg>

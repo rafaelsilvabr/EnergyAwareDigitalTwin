@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Título -->
+    <text x="250" y="40" font-family="Arial" font-size="20" font-weight="bold">Padrão de Camadas</text>
+
+    <!-- Camada de Apresentação -->
+    <g transform="translate(100,80)">
+        <rect width="600" height="100" fill="#3498db" stroke="#000"/>
+        <text x="20" y="40" fill="white" font-family="Arial" font-size="16" font-weight="bold">Camada de Apresentação</text>
+
+        <!-- Componentes -->
+        <g transform="translate(20,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Interface Web</text>
+        </g>
+
+        <g transform="translate(150,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">App Móvel</text>
+        </g>
+
+        <g transform="translate(280,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Dashboard</text>
+        </g>
+    </g>
+
+    <!-- Camada de Aplicação -->
+    <g transform="translate(100,190)">
+        <rect width="600" height="100" fill="#27ae60" stroke="#000"/>
+        <text x="20" y="40" fill="white" font-family="Arial" font-size="16" font-weight="bold">Camada de Aplicação</text>
+
+        <!-- Componentes -->
+        <g transform="translate(20,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Serviços</text>
+        </g>
+
+        <g transform="translate(150,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Controllers</text>
+        </g>
+
+        <g transform="translate(280,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Use Cases</text>
+        </g>
+    </g>
+
+    <!-- Camada de Domínio -->
+    <g transform="translate(100,300)">
+        <rect width="600" height="100" fill="#e74c3c" stroke="#000"/>
+        <text x="20" y="40" fill="white" font-family="Arial" font-size="16" font-weight="bold">Camada de Domínio</text>
+
+        <!-- Componentes -->
+        <g transform="translate(20,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Entidades</text>
+        </g>
+
+        <g transform="translate(150,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Value Objects</text>
+        </g>
+
+        <g transform="translate(280,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Agregados</text>
+        </g>
+    </g>
+
+    <!-- Camada de Infraestrutura -->
+    <g transform="translate(100,410)">
+        <rect width="600" height="100" fill="#8e44ad" stroke="#000"/>
+        <text x="20" y="40" fill="white" font-family="Arial" font-size="16" font-weight="bold">Camada de Infraestrutura</text>
+
+        <!-- Componentes -->
+        <g transform="translate(20,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Repositórios</text>
+        </g>
+
+        <g transform="translate(150,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">Persistence</text>
+        </g>
+
+        <g transform="translate(280,60)">
+            <rect width="120" height="30" rx="5" fill="#fff" stroke="#000"/>
+            <text x="15" y="20" font-family="Arial" font-size="12">External Services</text>
+        </g>
+    </g>
+
+    <!-- Setas de Dependência -->
+    <g stroke="#000" stroke-width="1.5">
+        <line x1="400" y1="180" x2="400" y2="190" marker-end="url(#arrowhead)"/>
+        <line x1="400" y1="290" x2="400" y2="300" marker-end="url(#arrowhead)"/>
+        <line x1="400" y1="400" x2="400" y2="410" marker-end="url(#arrowhead)"/>
+    </g>
+
+    <!-- Definição da seta -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7"
+                refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#000"/>
+        </marker>
+    </defs>
+</svg>
